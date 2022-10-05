@@ -1,4 +1,4 @@
-~ Hapus folder
+HAPUS FOLDER
 sudo rm -rf myfolder
 
 ~ Ubah permisi folder ke siapapun bisa akses
@@ -6,13 +6,12 @@ sudo chmod -R ugo+rw /DATA/SHARE
 Source https://www.linux.com/training-tutorials/how-manage-file-and-folder-permissions-linux/
 
 
-Device Manager
-~ cek device di usb
+CEK DEVICE DI USB
 lsusb
 
-~cek com port tty
+CEK COM PORT atau TTY
 ls /dev/tty*
 
 
-~Cek Suhu
+CEK SUHU PROCESOR
 /usr/bin/vcgencmd measure_temp
