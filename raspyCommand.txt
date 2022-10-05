@@ -12,3 +12,7 @@ lsusb
 
 ~cek com port tty
 ls /dev/tty*
+
+
+~Cek Suhu
+/usr/bin/vcgencmd measure_temp
