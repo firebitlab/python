@@ -16,3 +16,21 @@ ls /dev/tty*
 
 ~Cek Suhu
 /usr/bin/vcgencmd measure_temp
+
+
+~Atur waktu jam tanggal
+https://raspberrytips.com/set-date-time-raspberry-pi/#:~:text=Raspi-config%20is%20the%20main%20configuration%20tool%20available%20on,a%20geographic%20area%20and%20a%20specific%20time%20zone
+
+
+Control PANEL
+~list software
+dpkg --list
+
+~uninstall but keeps the configuration files and any plugins and settings that you might have installed later. This helps in keeping the same settings when you want to reinstall the software.
+sudo apt-get remove package-name
+
+~clean uninstall
+sudo apt-get purge package-name
+
+In case you want to remove any dependencies such as the applications and libraries used by the software you once installed that is no longer in use, you can do some housekeeping through the following command:
+sudo apt-get autoremove
